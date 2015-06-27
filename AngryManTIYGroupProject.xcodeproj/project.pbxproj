@@ -18,7 +18,8 @@
 		043FF9E01B3E6795003EA2C3 /* FullStacker.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9DF1B3E6795003EA2C3 /* FullStacker.png */; };
 		043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */; };
 		043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E31B3E6DE9003EA2C3 /* CEO.png */; };
-		043FF9E61B3E703F003EA2C3 /* computerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E51B3E703F003EA2C3 /* computerImage.png */; };
+		043FF9E61B3E703F003EA2C3 /* computer.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E51B3E703F003EA2C3 /* computer.png */; };
+		04E29FD01B3EE4DB0045EA81 /* fireball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04E29FCF1B3EE4DB0045EA81 /* fireball.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +48,8 @@
 		043FF9DF1B3E6795003EA2C3 /* FullStacker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullStacker.png; sourceTree = "<group>"; };
 		043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JuniorDeveloper.png; sourceTree = "<group>"; };
 		043FF9E31B3E6DE9003EA2C3 /* CEO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CEO.png; sourceTree = "<group>"; };
-		043FF9E51B3E703F003EA2C3 /* computerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computerImage.png; sourceTree = "<group>"; };
+		043FF9E51B3E703F003EA2C3 /* computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer.png; sourceTree = "<group>"; };
+		04E29FCF1B3EE4DB0045EA81 /* fireball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fireball.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				043FF9BA1B3E1D37003EA2C3 /* Info.plist */,
+				04E29FCF1B3EE4DB0045EA81 /* fireball.wav */,
 				043FF9E31B3E6DE9003EA2C3 /* CEO.png */,
 				043FF9DF1B3E6795003EA2C3 /* FullStacker.png */,
-				043FF9E51B3E703F003EA2C3 /* computerImage.png */,
+				043FF9E51B3E703F003EA2C3 /* computer.png */,
 				043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */,
 				043FF9BB1B3E1D37003EA2C3 /* AppDelegate.swift */,
 			);
@@ -212,11 +215,12 @@
 			files = (
 				043FF9CA1B3E1D37003EA2C3 /* LaunchScreen.xib in Resources */,
 				043FF9C71B3E1D37003EA2C3 /* Images.xcassets in Resources */,
+				04E29FD01B3EE4DB0045EA81 /* fireball.wav in Resources */,
 				043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */,
 				043FF9BE1B3E1D37003EA2C3 /* GameScene.sks in Resources */,
 				043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */,
 				043FF9E01B3E6795003EA2C3 /* FullStacker.png in Resources */,
-				043FF9E61B3E703F003EA2C3 /* computerImage.png in Resources */,
+				043FF9E61B3E703F003EA2C3 /* computer.png in Resources */,
 				043FF9C51B3E1D37003EA2C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 				043FF9DB1B3E1D37003EA2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043FF9DC1B3E1D37003EA2C3 /* Build configuration list for PBXNativeTarget "AngryManTIYGroupProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +446,7 @@
 				043FF9DE1B3E1D37003EA2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
