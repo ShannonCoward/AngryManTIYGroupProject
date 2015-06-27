@@ -15,6 +15,10 @@
 		043FF9C71B3E1D37003EA2C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9C61B3E1D37003EA2C3 /* Images.xcassets */; };
 		043FF9CA1B3E1D37003EA2C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9C81B3E1D37003EA2C3 /* LaunchScreen.xib */; };
 		043FF9D61B3E1D37003EA2C3 /* AngryManTIYGroupProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FF9D51B3E1D37003EA2C3 /* AngryManTIYGroupProjectTests.swift */; };
+		043FF9E01B3E6795003EA2C3 /* FullStacker.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9DF1B3E6795003EA2C3 /* FullStacker.png */; };
+		043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */; };
+		043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E31B3E6DE9003EA2C3 /* CEO.png */; };
+		043FF9E61B3E703F003EA2C3 /* computerImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E51B3E703F003EA2C3 /* computerImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		043FF9CF1B3E1D37003EA2C3 /* AngryManTIYGroupProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngryManTIYGroupProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FF9D41B3E1D37003EA2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043FF9D51B3E1D37003EA2C3 /* AngryManTIYGroupProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryManTIYGroupProjectTests.swift; sourceTree = "<group>"; };
+		043FF9DF1B3E6795003EA2C3 /* FullStacker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullStacker.png; sourceTree = "<group>"; };
+		043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JuniorDeveloper.png; sourceTree = "<group>"; };
+		043FF9E31B3E6DE9003EA2C3 /* CEO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CEO.png; sourceTree = "<group>"; };
+		043FF9E51B3E703F003EA2C3 /* computerImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computerImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +89,6 @@
 		043FF9B81B3E1D37003EA2C3 /* AngryManTIYGroupProject */ = {
 			isa = PBXGroup;
 			children = (
-				043FF9BB1B3E1D37003EA2C3 /* AppDelegate.swift */,
 				043FF9BD1B3E1D37003EA2C3 /* GameScene.sks */,
 				043FF9BF1B3E1D37003EA2C3 /* GameScene.swift */,
 				043FF9C11B3E1D37003EA2C3 /* GameViewController.swift */,
@@ -97,6 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				043FF9BA1B3E1D37003EA2C3 /* Info.plist */,
+				043FF9E31B3E6DE9003EA2C3 /* CEO.png */,
+				043FF9DF1B3E6795003EA2C3 /* FullStacker.png */,
+				043FF9E51B3E703F003EA2C3 /* computerImage.png */,
+				043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */,
+				043FF9BB1B3E1D37003EA2C3 /* AppDelegate.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,7 +212,11 @@
 			files = (
 				043FF9CA1B3E1D37003EA2C3 /* LaunchScreen.xib in Resources */,
 				043FF9C71B3E1D37003EA2C3 /* Images.xcassets in Resources */,
+				043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */,
 				043FF9BE1B3E1D37003EA2C3 /* GameScene.sks in Resources */,
+				043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */,
+				043FF9E01B3E6795003EA2C3 /* FullStacker.png in Resources */,
+				043FF9E61B3E703F003EA2C3 /* computerImage.png in Resources */,
 				043FF9C51B3E1D37003EA2C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
