@@ -19,12 +19,21 @@
 		043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */; };
 		043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E31B3E6DE9003EA2C3 /* CEO.png */; };
 		043FF9E61B3E703F003EA2C3 /* computer.png in Resources */ = {isa = PBXBuildFile; fileRef = 043FF9E51B3E703F003EA2C3 /* computer.png */; };
+		0493D0C41B40404500DADC7C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493D0C31B40404500DADC7C /* StartScreen.swift */; };
+		0493D0C61B40414300DADC7C /* StartScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0493D0C51B40414300DADC7C /* StartScreen.sks */; };
+		0493D0C91B40436C00DADC7C /* nextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0493D0C81B40436C00DADC7C /* nextButton.png */; };
 		049C50CB1B3F575F00424901 /* increaseY.png in Resources */ = {isa = PBXBuildFile; fileRef = 049C50CA1B3F575F00424901 /* increaseY.png */; };
 		049C50CD1B3F577500424901 /* decreaseY.png in Resources */ = {isa = PBXBuildFile; fileRef = 049C50CC1B3F577500424901 /* decreaseY.png */; };
 		049C50CF1B3F578200424901 /* decreaseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 049C50CE1B3F578200424901 /* decreaseX.png */; };
 		049C50D11B3F578B00424901 /* increaseX.png in Resources */ = {isa = PBXBuildFile; fileRef = 049C50D01B3F578B00424901 /* increaseX.png */; };
 		04B23BAC1B3F427500D449A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B23BAB1B3F427500D449A3 /* Constants.swift */; };
 		04E29FD01B3EE4DB0045EA81 /* fireball.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04E29FCF1B3EE4DB0045EA81 /* fireball.wav */; };
+		04E58D841B4078C40057F0C0 /* keyBoardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E58D831B4078C40057F0C0 /* keyBoardBackground.png */; };
+		04E58D861B4079FD0057F0C0 /* keyboardBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04E58D851B4079FD0057F0C0 /* keyboardBackground.jpeg */; };
+		04E58D881B407AB70057F0C0 /* swtheme.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04E58D871B407AB70057F0C0 /* swtheme.wav */; };
+		04E73A8C1B402CFE009A243F /* bricks.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E73A8B1B402CFE009A243F /* bricks.png */; };
+		04E73A8E1B403710009A243F /* RailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E73A8D1B403710009A243F /* RailsRequest.swift */; };
+		04E73A901B403B9B009A243F /* wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E73A8F1B403B9B009A243F /* wallpaper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +63,22 @@
 		043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JuniorDeveloper.png; sourceTree = "<group>"; };
 		043FF9E31B3E6DE9003EA2C3 /* CEO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CEO.png; sourceTree = "<group>"; };
 		043FF9E51B3E703F003EA2C3 /* computer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = computer.png; sourceTree = "<group>"; };
+		0493D0C31B40404500DADC7C /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		0493D0C51B40414300DADC7C /* StartScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScreen.sks; sourceTree = "<group>"; };
+		0493D0C81B40436C00DADC7C /* nextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextButton.png; sourceTree = "<group>"; };
+		0493D0CA1B40480800DADC7C /* Apple Japanese Keyboard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Japanese Keyboard.ttf"; sourceTree = "<group>"; };
 		049C50CA1B3F575F00424901 /* increaseY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = increaseY.png; sourceTree = "<group>"; };
 		049C50CC1B3F577500424901 /* decreaseY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decreaseY.png; sourceTree = "<group>"; };
 		049C50CE1B3F578200424901 /* decreaseX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decreaseX.png; sourceTree = "<group>"; };
 		049C50D01B3F578B00424901 /* increaseX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = increaseX.png; sourceTree = "<group>"; };
 		04B23BAB1B3F427500D449A3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04E29FCF1B3EE4DB0045EA81 /* fireball.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fireball.wav; sourceTree = "<group>"; };
+		04E58D831B4078C40057F0C0 /* keyBoardBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyBoardBackground.png; sourceTree = "<group>"; };
+		04E58D851B4079FD0057F0C0 /* keyboardBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = keyboardBackground.jpeg; sourceTree = "<group>"; };
+		04E58D871B407AB70057F0C0 /* swtheme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = swtheme.wav; sourceTree = "<group>"; };
+		04E73A8B1B402CFE009A243F /* bricks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bricks.png; sourceTree = "<group>"; };
+		04E73A8D1B403710009A243F /* RailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RailsRequest.swift; sourceTree = "<group>"; };
+		04E73A8F1B403B9B009A243F /* wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +123,7 @@
 				043FF9BD1B3E1D37003EA2C3 /* GameScene.sks */,
 				043FF9BF1B3E1D37003EA2C3 /* GameScene.swift */,
 				043FF9C11B3E1D37003EA2C3 /* GameViewController.swift */,
+				0493D0C71B40416F00DADC7C /* StartGame */,
 				04B23BAB1B3F427500D449A3 /* Constants.swift */,
 				043FF9C31B3E1D37003EA2C3 /* Main.storyboard */,
 				043FF9C61B3E1D37003EA2C3 /* Images.xcassets */,
@@ -116,15 +136,23 @@
 		043FF9B91B3E1D37003EA2C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E73A8D1B403710009A243F /* RailsRequest.swift */,
 				043FF9BA1B3E1D37003EA2C3 /* Info.plist */,
 				04E29FCF1B3EE4DB0045EA81 /* fireball.wav */,
 				043FF9E31B3E6DE9003EA2C3 /* CEO.png */,
 				043FF9DF1B3E6795003EA2C3 /* FullStacker.png */,
+				04E58D851B4079FD0057F0C0 /* keyboardBackground.jpeg */,
 				043FF9E51B3E703F003EA2C3 /* computer.png */,
+				04E58D871B407AB70057F0C0 /* swtheme.wav */,
+				04E73A8B1B402CFE009A243F /* bricks.png */,
+				04E58D831B4078C40057F0C0 /* keyBoardBackground.png */,
+				0493D0CA1B40480800DADC7C /* Apple Japanese Keyboard.ttf */,
+				0493D0C81B40436C00DADC7C /* nextButton.png */,
 				049C50CA1B3F575F00424901 /* increaseY.png */,
 				049C50CC1B3F577500424901 /* decreaseY.png */,
 				049C50CE1B3F578200424901 /* decreaseX.png */,
 				049C50D01B3F578B00424901 /* increaseX.png */,
+				04E73A8F1B403B9B009A243F /* wallpaper.png */,
 				043FF9E11B3E67D8003EA2C3 /* JuniorDeveloper.png */,
 				043FF9BB1B3E1D37003EA2C3 /* AppDelegate.swift */,
 			);
@@ -146,6 +174,15 @@
 				043FF9D41B3E1D37003EA2C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0493D0C71B40416F00DADC7C /* StartGame */ = {
+			isa = PBXGroup;
+			children = (
+				0493D0C31B40404500DADC7C /* StartScreen.swift */,
+				0493D0C51B40414300DADC7C /* StartScreen.sks */,
+			);
+			name = StartGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +234,7 @@
 				TargetAttributes = {
 					043FF9B51B3E1D37003EA2C3 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = YUM7RTQH92;
 					};
 					043FF9CE1B3E1D37003EA2C3 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -234,12 +272,19 @@
 				04E29FD01B3EE4DB0045EA81 /* fireball.wav in Resources */,
 				043FF9E41B3E6DE9003EA2C3 /* CEO.png in Resources */,
 				043FF9BE1B3E1D37003EA2C3 /* GameScene.sks in Resources */,
+				04E73A8C1B402CFE009A243F /* bricks.png in Resources */,
+				0493D0C91B40436C00DADC7C /* nextButton.png in Resources */,
 				043FF9E21B3E67D8003EA2C3 /* JuniorDeveloper.png in Resources */,
 				049C50CB1B3F575F00424901 /* increaseY.png in Resources */,
+				04E73A901B403B9B009A243F /* wallpaper.png in Resources */,
 				043FF9E01B3E6795003EA2C3 /* FullStacker.png in Resources */,
+				04E58D881B407AB70057F0C0 /* swtheme.wav in Resources */,
+				04E58D841B4078C40057F0C0 /* keyBoardBackground.png in Resources */,
 				049C50CD1B3F577500424901 /* decreaseY.png in Resources */,
+				0493D0C61B40414300DADC7C /* StartScreen.sks in Resources */,
 				049C50CF1B3F578200424901 /* decreaseX.png in Resources */,
 				043FF9E61B3E703F003EA2C3 /* computer.png in Resources */,
+				04E58D861B4079FD0057F0C0 /* keyboardBackground.jpeg in Resources */,
 				043FF9C51B3E1D37003EA2C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +305,9 @@
 			files = (
 				043FF9C01B3E1D37003EA2C3 /* GameScene.swift in Sources */,
 				043FF9C21B3E1D37003EA2C3 /* GameViewController.swift in Sources */,
+				0493D0C41B40404500DADC7C /* StartScreen.swift in Sources */,
 				043FF9BC1B3E1D37003EA2C3 /* AppDelegate.swift in Sources */,
+				04E73A8E1B403710009A243F /* RailsRequest.swift in Sources */,
 				04B23BAC1B3F427500D449A3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,9 +435,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AngryManTIYGroupProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -398,9 +448,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AngryManTIYGroupProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -40,7 +40,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var budgetNumber: Int = 50000
     
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
+        // Setup your scene here
+   
+        var bgImage = SKSpriteNode(imageNamed: "wallpaper.png")
+        
+        bgImage.position = CGPointMake(self.size.width/2, self.size.height/2)
+        
+        self.addChild(bgImage)
         
         physicsWorld.gravity = CGVector(dx: 0.0, dy: -9.8)
        
@@ -155,7 +161,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     projectile.physicsBody?.contactTestBitMask = computerCategory
                     addChild(projectile)
                     projectile.physicsBody?.applyImpulse(CGVectorMake(velocityX, velocityY))
-                    projectile.physicsBody?.mass = CGFloat(0.05)
+                    projectile.physicsBody?.mass = CGFloat(0.01)
                     budgetNumber = budgetNumber - 2500
                     
                     var soundEffect = SKAction.playSoundFileNamed("fireball.wav", waitForCompletion: false)
@@ -256,6 +262,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         yLabel.text = "\(velocityY)"
         
         budgetLabel.text = "\(budgetNumber)"
+        
+        
         
         //        if touching {
         //

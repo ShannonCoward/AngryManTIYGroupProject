@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "container:"
+      name = "GameOver">
+      <FileRef
+         location = "group:GameOver.sks">
+      </FileRef>
+      <FileRef
+         location = "group:GameOver.swift">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:AngryManTIYGroupProject.xcodeproj">
    </FileRef>
