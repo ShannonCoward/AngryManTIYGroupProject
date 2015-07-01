@@ -59,6 +59,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         fullStackIcon = childNodeWithName("FullStacker.png") as? SKSpriteNode
         computer = childNodeWithName("computer") as? SKSpriteNode
         
+        
+        
         ceo.size = newCeoSize
         
         println(computer)
