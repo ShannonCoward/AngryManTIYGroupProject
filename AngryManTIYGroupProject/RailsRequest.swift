@@ -60,14 +60,14 @@ class RailsRequest: NSObject {
             "endpoint" : "/levels:id"
         ]
     }
-        
+    
 
     
     func requestWithInfo(info: [String:AnyObject], andCompletion completion: ((responseInfo: [String:AnyObject]?) ->Void)?) {
         
-        println("Inside RailsRequest 1")
+        print("Inside RailsRequest 1")
         
-        println(info)
+        print(info)
         
         let endpoint = info["endpoint"] as! String
         if let url = NSURL(string: API_URL + endpoint) {
@@ -78,7 +78,7 @@ class RailsRequest: NSObject {
             
             if RailsRequest.session().token != nil {
                 
-                println("Inside RailsRequest 2")
+                print("Inside RailsRequest 2")
                 
                 request.setValue(RailsRequest.session().token!, forHTTPHeaderField: "Access-Token")
                 
@@ -88,7 +88,7 @@ class RailsRequest: NSObject {
             
             if let bodyInfo = info["parameters"] as? [String:AnyObject] {
                 
-                let requestData = NSJSONSerialization.dataWithJSONObject(bodyInfo, options: NSJSONWritingOptions.allZeros, error: nil)
+                let requestData = try? NSJSONSerialization.dataWithJSONObject(bodyInfo, options: NSJSONWritingOptions())
                 
                 let jsonString = NSString(data: requestData!, encoding: NSUTF8StringEncoding)
                 
@@ -108,7 +108,7 @@ class RailsRequest: NSObject {
             
             NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: { (response, data, error) -> Void in
                 
-                if let json = NSJSONSerialization.JSONObjectWithData(data, options: .MutableContainers, error: nil) as? [String:AnyObject] {
+                if let json = (try? NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers)) as? [String:AnyObject] {
                     
                     completion?(responseInfo: json)
                     

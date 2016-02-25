@@ -42,7 +42,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func didMoveToView(view: SKView) {
         // Setup your scene here
    
-        var bgImage = SKSpriteNode(imageNamed: "wallpaper.png")
+        let bgImage = SKSpriteNode(imageNamed: "wallpaper.png")
         
         bgImage.position = CGPointMake(self.size.width/2, self.size.height/2)
         
@@ -50,7 +50,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         physicsWorld.gravity = CGVector(dx: 0.0, dy: -9.8)
        
-        println(physicsWorld.gravity)
+        print(physicsWorld.gravity)
         
         selectFullStack = childNodeWithName("buttonTwo") as? SKSpriteNode
         selectJD = childNodeWithName("buttonOne") as? SKSpriteNode
@@ -63,11 +63,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         ceo.size = newCeoSize
         
-        println(computer)
+        print(computer)
         computer.physicsBody = SKPhysicsBody(rectangleOfSize: CGSizeMake(20, 20))
         computer.physicsBody?.usesPreciseCollisionDetection = true
         computer.physicsBody?.categoryBitMask = computerCategory
-        println(computer.physicsBody?.categoryBitMask)
+        print(computer.physicsBody?.categoryBitMask)
         
         self.physicsWorld.contactDelegate = self
         
@@ -120,14 +120,14 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 //        
 //    }
     
-    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
-        let touch = touches.first as! UITouch
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        let touch = touches.first! as UITouch
         let location = touch.locationInNode(self)
         touchPoint = location
         
     }
     
-    override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         var juniorDevelper = childNodeWithName("JuniorDeveloper.png") as? SKSpriteNode
         var fullStacker = childNodeWithName("FullStacker.png") as? SKSpriteNode
@@ -168,7 +168,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     var soundEffect = SKAction.playSoundFileNamed("fireball.wav", waitForCompletion: false)
                     
-                    audioPlayer = AVAudioPlayer(contentsOfURL: fireballSound, error: nil)
+                    audioPlayer = try! AVAudioPlayer(contentsOfURL: fireballSound)
                     audioPlayer.prepareToPlay()
                     audioPlayer.play()
                     
@@ -202,7 +202,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     var soundEffect = SKAction.playSoundFileNamed("fireball.wav", waitForCompletion: false)
                     
-                    audioPlayer = AVAudioPlayer(contentsOfURL: fireballSound, error: nil)
+                    audioPlayer = try! AVAudioPlayer(contentsOfURL: fireballSound)
                     audioPlayer.prepareToPlay()
                     audioPlayer.play()
                     
@@ -289,7 +289,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if (bodyA == computerCategory) &&
             (bodyB == jdConsultantCategory)  {
                 
-                println("Score")
+                print("Score")
                 
 //                let contactPoint = contact.contactPoint
 //                let contact_x = contactPoint.x

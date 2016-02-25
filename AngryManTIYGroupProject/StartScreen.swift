@@ -27,7 +27,7 @@ class StartScreen: SKScene {
     
             // Setup your scene here
             
-            var bgImage = SKSpriteNode(imageNamed: "wallpaper.png")
+            let bgImage = SKSpriteNode(imageNamed: "wallpaper.png")
             
             bgImage.position = CGPointMake(self.size.width/2, self.size.height/2)
             
@@ -35,22 +35,22 @@ class StartScreen: SKScene {
         
         var soundEffect = SKAction.playSoundFileNamed("swtheme.wav", waitForCompletion: false)
         
-        audioPlayer = AVAudioPlayer(contentsOfURL: swtheme, error: nil)
+        audioPlayer = try! AVAudioPlayer(contentsOfURL: swtheme)
         audioPlayer.prepareToPlay()
         audioPlayer.play()
         
         
     }
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
 
-            var transition = SKTransition.flipVerticalWithDuration(1.0)
+            let transition = SKTransition.flipVerticalWithDuration(1.0)
             self.scene!.view!.presentScene(scene, transition: transition)
             
             var soundEffect = SKAction.playSoundFileNamed("swtheme.wav", waitForCompletion: false)
             
-            audioPlayer = AVAudioPlayer(contentsOfURL: swtheme, error: nil)
+            audioPlayer = try! AVAudioPlayer(contentsOfURL: swtheme)
             audioPlayer.prepareToPlay()
             audioPlayer.play()
             
